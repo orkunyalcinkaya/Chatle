@@ -18,6 +18,13 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.seirend.chatle.ui.message.MessageFragment"
+        android:label="@string/title_message"
+        tools:layout="@layout/fragment_message"/>
+
+
+    <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.seirend.chatle.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
